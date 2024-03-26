@@ -1,0 +1,29 @@
+n1 = 3
+n2 = 2
+n3 = 76
+n4 = 5
+
+frase = "isso é uma frase"
+
+palavra = "absurdo"
+
+media = (n1 + n2 + n3 + n4) / 4
+print ("A média dos números é:", media)
+
+print("O quadrado do primeiro número é:", n1**2)
+
+print ("O dobro do segundo número é:", n2*2)
+
+print (palavra, "tem", len(palavra), "letras")
+
+qtd_espaços = frase.count(' ')
+
+print ("'", frase, " ' ", "tem",
+       qtd_espaços, "espaços em branco", sep='')
+
+if n1 > n2:
+    resultado = "O primeiro número (" + str(n1) + ") é maior que o segundo (" + str(n2) + ")."
+else:
+    resultado = "O primeiro número (" + str(n1) + ") não é maior que o segundo (" + str(n2) + ")."
+    print(resultado)
+    print("O maior número é:", max(n1, n2, n3, n4))
